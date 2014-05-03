@@ -4,7 +4,7 @@
 26  PRINT
 28  COLOR 4
 30  PRINT "                        RAKETENSTART IN "; A; " SEKUNDEN"
-50  FOR B = 1 TO 13000
+50  FOR B = 1 TO 1300
 60  NEXT B
 70  CLS
 80  IF A = 0 THEN PRINT "                        RAKETE STARTET"

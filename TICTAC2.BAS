@@ -28,7 +28,7 @@
 181 PRINT "             GEGEN DEN COMPUTER            dann gib eine 1 ein"
 182 PRINT "             ZU ZWEIT                      dann gib eine 2 ein"
 183 INPUT N
-184 IF N = 1 THEN GOTO 5000
+184 IF N = 1 THEN GOTO 10000
 185 IF N = 2 THEN GOTO 190
 186 IF N < 2 OR N > 1 THEN COLOR 4: PRINT "FALSCHE EINGABE": GOTO 175
 
@@ -190,4 +190,6 @@
 2060 IF A = 2 AND E = 2 AND I = 2 THEN PRINT B$; " hat gewonnen!!!": GOTO 10000
 2070 IF C = 2 AND E = 2 AND G = 2 THEN PRINT B$; " hat gewonnen!!!": GOTO 10000
 2080 RETURN
+
+10000 PRINT "Ende"
 
